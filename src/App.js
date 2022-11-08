@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import PopUp from './PopUp';
+import PopUp from "./components/PopUp";
 
 const App = () => {
   return (
     <div className="App">
-    <PopUp/>
+      <PopUp />
     </div>
   );
 };
