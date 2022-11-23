@@ -15,7 +15,7 @@ const PopUpModal = ({ onClose }) => {
     return function cleanUp() {
       document.removeEventListener("click", handleClick);
     };
-  });
+  }, [onClose]);
 
   return (
     <>
